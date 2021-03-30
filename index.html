@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Senha</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="shortcut icon" href="icon/lock_clock-24px.svg" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+    <main class="container">
+        <h2>Login</h2>
+        <form action="senha.php" method="POST">
+            <div class="input-field">
+                <input type="password" class="text" id="idsenha" placeholder="Senha" required name="senha" maxlength="12" minlength="4">
+                <label for="senha"><i class="fas fa-lock"></i></label>
+                <div class="underline"></div>
+            </div>
+            <input class="btn" type="submit" value="Criar">
+        </form>
+        <div class="footer">
+            <span>
+                Matheus Siqueira
+            </span>
+        </div>
+    </main>
+</body>
+</html>
